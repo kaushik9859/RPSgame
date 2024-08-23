@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+    
+<body>
+
+<div id="heading">
+        <h1 style="color: rgb(233, 136, 18);">Rock Paper Scissors  Game</h1>
+    </div> <!-- Removed this extra closing div -->
+    
+    <div class="container">
+        <div class="class" id="rock"><img src="rock.jpg" height="150px" width="150px"></div>
+        <div class="class" id="scissors"><img src="scissors.jpg" height="150px" width="150px"></div>
+        <div class="class" id="paper"><img src="paper.jpg" height="150px" width="150px"></div>
+    </div>
+    <div id="comp">
+        <h3 style="background-color: red;color:white ;">Computer</h3>
+    </div>
+    <button>Play Your Move!!!</button>
+    <div id="scoreboard" >
+        <h2 style="background-color: rgb(233, 104, 181);">Scoreboard!!</h2>
+        <div class="score"style="background-color: rgb(233, 104, 181);">
+            <pre style="background-color: rgb(233, 104, 181);">you: </pre><p style="background-color: rgb(233, 104, 181);"id="user_score">0</p>
+        </div>
+        <div class="score" style="background-color: rgb(233, 104, 181);">
+            <pre style="background-color: rgb(233, 104, 181);">Computer: </pre><p style="background-color: rgb(233, 104, 181);" id="comp_score">0</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

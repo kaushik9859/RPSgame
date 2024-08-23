@@ -1,0 +1,80 @@
+/* * {
+    color: whitesmoke;
+} */
+
+
+#heading{
+background-color:black;
+color: rgb(235, 125, 34);
+display: flex;
+justify-content: center;
+border-bottom:5px solid  ;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.class img{
+    height: 150px;
+    width:150px;
+    border: 5px solid red;
+    display: inline-block;
+    border-radius: 50%;
+}
+.class img:hover{
+    opacity: 0.8;
+    border: 10px solid red;
+}
+#comp{
+    position: fixed;
+    top: 450px;
+    left: 675px;
+    height: 150px;
+    width:150px;
+    color: rgb(227, 232, 236);
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+
+button{
+height: 56px; width: 200px;
+margin-top: 50px;
+color: aliceblue;
+position:absolute;
+left: 655px;
+top: 340px;
+background-color: blue;
+border: 5px solid blue;
+border-radius: 5px;
+font-size: 20px;
+font-weight:bolder;
+display: block;
+}
+
+#scoreboard{
+    position: fixed;
+    left: 475px;
+    bottom:0px;
+    color: beige;
+    background-color: rgb(233, 104, 181);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 500px;
+}
+.score {
+    font-weight: bold;
+    font-size: 20px;
+    height: 90px;
+}
+.score pre,h2,p{
+    color: white;
+}
